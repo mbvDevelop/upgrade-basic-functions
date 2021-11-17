@@ -110,3 +110,6 @@ function finderName(param, itemToSearch) {
 }
 
 console.log(finderName(nameFinder, "Peter"))
+
+// IT 8
+// Todavia no se como se hace
