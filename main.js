@@ -42,3 +42,17 @@ function average(param) {
     }
     return sum / param.length
 }
+// // IT 5
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+function averageWord(param) {
+    let sum = 0
+  for (item of param) {
+      if (typeof(item) == "string") {
+        sum += item.length
+        continue
+      }
+      sum += item
+  }
+  return sum
+}
+
