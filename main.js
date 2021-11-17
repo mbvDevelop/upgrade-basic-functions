@@ -85,3 +85,28 @@ function removeDuplicates(param) {
  
 console.log(removeDuplicates(duplicates))
 
+// IT 7
+const nameFinder = [
+  'Peter',
+  'Steve',
+  'Tony',
+  'Natasha',
+  'Clint',
+  'Logan',
+  'Xabier',
+  'Bruce',
+  'Peggy',
+  'Jessica',
+  'Marc'
+];
+function finderName(param, itemToSearch) {
+  // insert code
+  for (item of param) {
+      if (itemToSearch == item) {
+          return (true, param.indexOf(item))
+      }
+  }
+  return false
+}
+
+console.log(finderName(nameFinder, "Peter"))
