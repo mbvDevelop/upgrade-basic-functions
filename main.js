@@ -22,7 +22,7 @@ function sum(numberOne , numberTwo) {
   }
 
    // IT 3
-   
+
   const numbers = [1, 2, 3, 5, 45, 37, 58];
  
 function sumAll(param) {
@@ -31,4 +31,14 @@ function sumAll(param) {
         sum += number
     }
     return sum
+}
+
+  // IT 4
+const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(param) {
+    let sum = 0
+    for (number of param) {
+        sum += number
+    }
+    return sum / param.length
 }
