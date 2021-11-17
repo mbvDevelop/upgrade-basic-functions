@@ -7,3 +7,16 @@ function sum(numberOne , numberTwo) {
     }
     return numberTwo
   }
+
+  //   // IT 2
+  
+  const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
+  function findLongestWord(param) {
+      let longest = ""
+    for (hero of param) {
+        if (hero.length > longest.length) {
+            longest = hero
+        }
+    }
+    return longest
+  }
