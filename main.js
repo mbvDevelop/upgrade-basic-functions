@@ -56,3 +56,32 @@ function averageWord(param) {
   return sum
 }
 
+// IT 6
+ 
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+  ];
+function removeDuplicates(param) {
+    let cleanArray = []
+    for (itemToCheck of param) {
+            if (cleanArray.includes(itemToCheck)) {
+                continue
+            }
+            cleanArray.push(itemToCheck)
+            console.log(itemToCheck)
+    }
+    return cleanArray
+}  
+ 
+console.log(removeDuplicates(duplicates))
+
